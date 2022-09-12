@@ -27,11 +27,12 @@ namespace UsersApi.Services
             
             Task<IdentityResult> identityResult = _userManager.CreateAsync(userIdentity, createDto.Password);
             
-            _userManager.AddToRoleAsync(userIdentity, "regular");
+            
 
             if (identityResult.Result.Succeeded)
             {
-                return Result.Ok();
+                _userManager.AddToRoleAsync(userIdentity, "REGULAR");
+                return Result.Ok().WithSuccess("User Registered");
             }
             return Result.Fail("Fail to Register User");
         }

@@ -25,7 +25,7 @@ namespace UsersApi.Controllers
             {
                 return Unauthorized(result.Errors);
             }
-            return Ok(result.Successes);
+            return Ok(result.Reasons);
         }
     }
 }

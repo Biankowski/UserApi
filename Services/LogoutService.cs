@@ -17,7 +17,7 @@ namespace UsersApi.Services
             var identityResult = _signinManager.SignOutAsync();
             if(identityResult.IsCompletedSuccessfully)
             {
-                return Result.Ok();
+                return Result.Ok().WithSuccess("User logged out");
             }
             return Result.Fail("Failed to logout");
         }

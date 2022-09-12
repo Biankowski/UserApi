@@ -24,7 +24,7 @@ namespace UsersApi.Controllers
             {
                 return StatusCode(500);
             }
-            return Ok(result.Successes);
+            return Ok(result.Reasons);
         }
         
     }

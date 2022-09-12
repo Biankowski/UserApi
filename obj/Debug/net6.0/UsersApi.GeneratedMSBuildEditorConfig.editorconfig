@@ -11,6 +11,6 @@ build_property.RootNamespace = UsersApi
 build_property.ProjectDir = C:\Users\Biankovsky\Desktop\Projetos C#\WebOCR\UsersApi\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Biankovsky\Desktop\Projetos C#\WebOCR\UsersApi
 build_property._RazorSourceGeneratorDebug = 

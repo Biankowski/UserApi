@@ -23,8 +23,8 @@ namespace UsersApi.Services
             if(identityResult.Result.Succeeded)
             {
                 var identityUser = _signInManager.UserManager.Users.FirstOrDefault(user => user.NormalizedUserName == request.Username.ToUpper());
-                var tokenIdentifier = _signInManager.UserManager.GetRolesAsync(identityUser).Result.FirstOrDefault();
-                Token token = _tokenService.CreateToken(identityUser, tokenIdentifier);
+                var tokenIdentifier = _signInManager.UserManager.GetRolesAsync(identityUser).Result;
+                Token token = _tokenService.CreateToken(identityUser, tokenIdentifier.FirstOrDefault("regular"));
 
                 return Result.Ok().WithSuccess(token.Value);
             }
