@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qrbxEKkCZ3VDyXm5q0R1KHSBPc3GzWicxtmhvLiCkNZnQHNYL2T2bkcsbT9Kd9hGxstwv5UEXmrLivfdwVJ1PQ==",
+  "dgSpecHash": "+N8MFrwKyO0AxIgp4UsMcEgLjMUNguRbRklYpfBuCwaz84CzN/FiDo+VRS8lat6qmdJO7nKBbsdavWR88nasGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Biankovsky\\Desktop\\Projetos C#\\WebOCR\\UsersApi\\UsersApi.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,7 @@
     "C:\\Users\\Biankovsky\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\2.2.0\\microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Biankovsky\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Biankovsky\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\Biankovsky\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.0\\microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
+    "C:\\Users\\Biankovsky\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\Biankovsky\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Biankovsky\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\Biankovsky\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

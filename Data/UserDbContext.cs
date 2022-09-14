@@ -33,7 +33,7 @@ namespace UsersApi.Data
 
             builder.Entity<IdentityRole<int>>().HasData(new IdentityRole<int> { Id = 999999, Name = "admin", NormalizedName = "ADMIN" });
 
-            builder.Entity<IdentityRole<int>>().HasData(new IdentityRole<int> { Id = 999998, Name = "regular", NormalizedName = "REGULAR" });
+            builder.Entity<IdentityRole<int>>().HasData(new IdentityRole<int> { Id = 2, Name = "regular", NormalizedName = "REGULAR" });
 
             builder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int> { RoleId = 999999, UserId = 999999 });
         }

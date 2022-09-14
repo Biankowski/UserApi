@@ -55,14 +55,14 @@ namespace UsersApi.Migrations
                         new
                         {
                             Id = 999999,
-                            ConcurrencyStamp = "4077b8fa-c25c-46e8-a182-61c39cc4deb1",
+                            ConcurrencyStamp = "73636978-9370-4cb9-bddf-cfe5a3476068",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = 999998,
-                            ConcurrencyStamp = "8aa74aca-0922-4885-bc45-1e6fb255cc41",
+                            Id = 2,
+                            ConcurrencyStamp = "c7acc776-3ff3-41da-b02a-447b28ca7009",
                             Name = "regular",
                             NormalizedName = "REGULAR"
                         });
@@ -164,15 +164,15 @@ namespace UsersApi.Migrations
                         {
                             Id = 999999,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "df3dffd5-fff6-4c2d-990c-a4a2247cd4d7",
+                            ConcurrencyStamp = "7f8d3c64-caa7-4be2-b2b0-c46de8f29a7c",
                             Email = "admin@admin.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMIN.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGgqwn5Z0pi+qdUdrvhXcpRNYiVzFbzAQHpbkYw1mKnzaNUA9Yi6tXGnvLwiv+9lpw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOu2tznHLJQJMJeoU7iPewlUx9ml0XqBIIKdm/sseDkGCpQ5DahUV3pU0NgOEGzlxA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "bd360d78-c13b-4685-b9c3-1131aca53d5b",
+                            SecurityStamp = "e0a27f7b-b44e-4af5-9338-a49e5bddb348",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });

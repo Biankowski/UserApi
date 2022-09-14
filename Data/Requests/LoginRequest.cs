@@ -4,6 +4,8 @@ namespace UsersApi.Data.Requests
 {
     public class LoginRequest
     {
+        public Guid Id { get; set; }
+
         [Required]
         public string Username { get; set; }
         [Required]
