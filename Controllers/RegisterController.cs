@@ -16,6 +16,7 @@ namespace UsersApi.Controllers
             _registerService = registerService;
         }
 
+        // Register route
         [HttpPost]
         public IActionResult RegisterUser(CreateUserDto createDto)
         {

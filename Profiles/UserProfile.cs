@@ -7,6 +7,7 @@ namespace UsersApi.Profiles
 {
     public class UserProfile : Profile
     {
+        // Map users
         public UserProfile()
         {
             CreateMap<CreateUserDto, User>();

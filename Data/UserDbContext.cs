@@ -12,6 +12,10 @@ namespace UsersApi.Data
             _configuration = configuration;
         }
 
+        // Create the Admin user
+        // Use secrets to hide the password from the source code
+        // Add the Admin user to the admin role
+        // Create the regular role
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

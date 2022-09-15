@@ -12,6 +12,7 @@ namespace UsersApi.Services
             _signinManager = signinManager;
         }
 
+        // This method will just logout user
         public Result LogOutUser()
         {
             var identityResult = _signinManager.SignOutAsync();

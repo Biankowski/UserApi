@@ -17,6 +17,7 @@ namespace UsersApi.Controllers
             _loginService = loginService;
         }
 
+        // Login route
         [HttpPost]
         public IActionResult LogUser(LoginRequest request)
         {

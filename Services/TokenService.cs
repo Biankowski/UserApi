@@ -10,6 +10,7 @@ namespace UsersApi.Services
 {
     public class TokenService
     {
+        // Method responsible to create the JWT token
         public Token CreateToken(IdentityUser<int> user, string role)
         {
             Claim[] userClaims = new Claim[]

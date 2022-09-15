@@ -15,6 +15,7 @@ namespace UsersApi.Controllers
             _logoutService = logoutService;
         }
 
+        // Logout route
         [HttpPost]
         public IActionResult LogOutUser()
         {

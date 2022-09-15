@@ -20,14 +20,15 @@ namespace UsersApi.Services
             _roleManager = roleManager;
         }
 
-        public  Result RegisterUser(CreateUserDto createDto)
+        // This method will recieve a register request and talk to the database
+        // It will create the user to the database
+        // If user is successfully created, it will return a success message
+        public Result RegisterUser(CreateUserDto createDto)
         {
             User user = _mapper.Map<User>(createDto);
             IdentityUser<int> userIdentity = _mapper.Map<IdentityUser<int>>(user);
             
             Task<IdentityResult> identityResult = _userManager.CreateAsync(userIdentity, createDto.Password);
-            
-            
 
             if (identityResult.Result.Succeeded)
             {

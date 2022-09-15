@@ -16,6 +16,8 @@ namespace UsersApi.Services
             _tokenService = tokenService;
         }
 
+        // This method will recieve a login request and talk to the database
+        // If user is authenticated, the method will return a success response
         public Result LogUser(LoginRequest request)
         {
             var identityResult = _signInManager.PasswordSignInAsync(request.Username, request.Password, false, false);
